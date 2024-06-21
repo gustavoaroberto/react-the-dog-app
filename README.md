@@ -1,6 +1,6 @@
 # The Dog App (WIP)
 
-The Dog App is a Next.js application that fetches data from a free API to display various dog breeds. This app is designed to showcase my frontend skills and demonstrate my ability to work with APIs and modern web technologies.
+The Dog App is a Next.js application that fetches data from a free API to display various dog breeds. This app is part of a larger initiative to compare development experiences across different front-end frameworks. The goal is to explore how each framework handles API integration, data fetching, and creating modern, responsive web applications. This project is an integral part of my journey to learn and understand various front-end technologies' strengths and learning curves.
 
 ## Table of Contents
 - [Features](#features)
