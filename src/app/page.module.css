@@ -6,35 +6,17 @@
   min-height: 100vh;
   gap: 20px;
   color: black;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.main i {
+  font-style: italic;
 }
 
 .main h1 {
   font-size: 32px;
   font-weight: 600;
-}
-
-.main form fieldset {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.main form {
-  width: 100%;
-}
-
-.main label {
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.main input {
-  width: 100%;
-  padding: 8px 16px;
-  background-color: white;
-  color: black;
-  border-radius: 8px;
-  border: none;
 }
 
 .searchButton {
