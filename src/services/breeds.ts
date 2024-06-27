@@ -9,7 +9,7 @@ export const getBreedsList = async (search: string): Promise<TDogBreed[]> => {
         })
 
         const url = `${API_URL}/breeds/search?${params}`;
-        console.log('url: ', url);
+        
         const res = await fetch(url, {
             method: 'GET',
             headers: {

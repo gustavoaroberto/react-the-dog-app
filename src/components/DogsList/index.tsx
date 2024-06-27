@@ -17,7 +17,7 @@ const DogsList = ({ data, loading }: IDogsList) => {
         <section className={styles.dogsList}>
             {data.map(el => (
                 <div key={el.name} className={styles.card}>
-                    <Image src={el.image ? el.image.url : 'https://httpstatusdogs.com/img/404.jpg'} width={100} height={100} alt={el.name}/>
+                    <Image src={el.image ? el.image.url : 'https://httpstatusdogs.com/img/404.jpg'} alt={el.name} fill/>
                     <div>
                     <h2>{el.name}</h2>
                     <p><b>Life Span:</b> {el.life_span}</p>

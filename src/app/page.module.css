@@ -33,27 +33,3 @@
   flex-direction: column;
   gap: 20px;
 }
-
-.card {
-  display: flex;
-  gap: 20px;
-  background-color: white;
-  padding: 12px;
-  border-radius: 8px;
-  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card h2 {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.card b {
-  font-weight: 600;
-}
-
-.card div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}

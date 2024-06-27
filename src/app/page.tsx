@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { getBreedsList } from '@/services/breeds';
 import SearchInput from '@/components/SearchInput';
 import DogsList from '@/components/DogsList';
-import { ReadonlyURLSearchParams } from 'next/navigation';
 
 
 interface IHomeProps {
