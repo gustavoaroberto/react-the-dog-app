@@ -1,4 +1,4 @@
-# The Dog App (WIP)
+# The Dog App - React/NextJS Version
 
 The Dog App is a Next.js application that fetches data from a free API to display various dog breeds. This app is part of a larger initiative to compare development experiences across different front-end frameworks. The goal is to explore how each framework handles API integration, data fetching, and creating modern, responsive web applications. This project is an integral part of my journey to learn and understand various front-end technologies' strengths and learning curves.
 
@@ -22,7 +22,7 @@ The Dog App is a Next.js application that fetches data from a free API to displa
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/the-dog-app.git
+    git clone https://github.com/gustavoaroberto/react-the-dog-app.git
     ```
 
 2. Navigate to the project directory:
@@ -40,6 +40,7 @@ The Dog App is a Next.js application that fetches data from a free API to displa
 4. Create a `.env.local` file in the root of the project and add your API key:
 
     ```plaintext
+    NEXT_PUBLIC_API_URL=https://api.thedogapi.com/v1
     NEXT_PUBLIC_API_KEY=your_api_key_here
     ```
 
@@ -64,6 +65,4 @@ The Dog App is a Next.js application that fetches data from a free API to displa
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
+This project is licensed under the MIT License.
